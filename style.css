@@ -83,6 +83,15 @@ nav.scrolled {
     color: #1d4ed8;
 }
 
+/* Logo image */
+.logo-img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
