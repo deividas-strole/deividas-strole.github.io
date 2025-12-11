@@ -18,24 +18,26 @@ function closeMobileMenu() {
     menu.classList.remove('open');
 }
 
-// Navbar scroll effect
-window.addEventListener('scroll', function() {
+// Navbar scroll effect + active-section detection
+function updateNavbarOnScroll() {
     const navbar = document.getElementById('navbar');
+    if (!navbar) return;
     if (window.scrollY > 50) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
     }
 
-    // Update active nav link
+    // Update active nav link using viewport midpoint (more robust than fixed 100px)
     const sections = ['home', 'about', 'experience', 'education', 'contact'];
     const navLinks = document.querySelectorAll('.nav-link');
-    
+    const mid = window.innerHeight / 2;
+
     sections.forEach((sectionId, index) => {
         const section = document.getElementById(sectionId);
         if (section) {
             const rect = section.getBoundingClientRect();
-            if (rect.top <= 100 && rect.bottom >= 100) {
+            if (rect.top <= mid && rect.bottom >= mid) {
                 navLinks.forEach(link => link.classList.remove('active'));
                 if (navLinks[index]) {
                     navLinks[index].classList.add('active');
@@ -43,7 +45,9 @@ window.addEventListener('scroll', function() {
             }
         }
     });
-});
+}
+
+window.addEventListener('scroll', updateNavbarOnScroll, { passive: true });
 
 // Equalize CTA button widths to match the widest (e.g., "View Experience")
 function equalizeCtaButtonWidths() {
@@ -77,9 +81,15 @@ function debounce(fn, wait = 100) {
 
 document.addEventListener('DOMContentLoaded', function() {
     equalizeCtaButtonWidths();
+    // Initial active link check
+    updateNavbarOnScroll();
 });
 
 window.addEventListener('resize', debounce(function() {
     equalizeCtaButtonWidths();
+}, 120));
+
+window.addEventListener('resize', debounce(function() {
+    updateNavbarOnScroll();
 }, 120));
 
