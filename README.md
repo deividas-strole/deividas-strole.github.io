@@ -54,7 +54,7 @@ This project is intended for personal and professional portfolio use.
 
 ## 📫 Connect
 
-- [DeividasStrole.com](https://deividasstrole.com)  
+- [Deividas Strole](https://deividasstrole.com)  
 - [LinkedIn](https://linkedin.com/in/deividas-strole)  
 - [YouTube](https://youtube.com/@deividas-strole)  
 - [Dev.to](https://dev.to/deividas-strole)  
@@ -63,4 +63,4 @@ This project is intended for personal and professional portfolio use.
 
 ⭐ If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**.
 
-© 2025 Deividas Strole. All rights reserved.
+© Deividas Strole. All rights reserved.
