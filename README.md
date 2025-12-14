@@ -61,6 +61,6 @@ This project is intended for personal and professional portfolio use.
 - [Medium](https://medium.com/@deividas-strole)  
 - [X](https://x.com/deividasstrole)  
 
-⭐ If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**.
+⭐ If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**!
 
 © Deividas Strole. All rights reserved.
