@@ -1,5 +1,5 @@
-# Deividas Strole - Full-Stack Developer Portfolio
-Official portfolio website showcasing the work of Deividas Strole, a software engineer with expertise in Java, Spring Boot, React, and modern cloud platforms.
+# Deividas Strole - Full-Stack Developer Site
+Official portfolio website of Deividas Strole, a software engineer with expertise in Java, Spring Boot, React, and modern cloud platforms. Includes work history, education, technical skills, and contact information.
 Built with clean HTML, CSS, and JavaScript for optimal performance and search engine visibility, hosted on GitHub Pages.
 
 ## View Live Site
