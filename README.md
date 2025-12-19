@@ -1,66 +1,54 @@
-# Deividas Strole | Personal Portfolio Website
+# Deividas Strole - Full-Stack Developer Portfolio
+Official portfolio website showcasing the work of Deividas Strole, a software engineer with expertise in Java, Spring Boot, React, and modern cloud platforms.
+Built with clean HTML, CSS, and JavaScript for optimal performance and search engine visibility, hosted on GitHub Pages.
 
-Source code for the personal portfolio website of Deividas Strole, a Full-Stack Developer specializing in Java, Spring Boot, React, and cloud technologies.
-
-The site is built as a fast, SEO-friendly static website using HTML, CSS, and JavaScript, and is deployed via GitHub Pages.
-
-## Live Demo
-
+## View Live Site
 https://DeividasStrole.com
 
-## Project Overview
+## About This Portfolio
+This site highlights:
+- Career history and professional background
+- Core competencies and tech stack
+- Academic credentials and professional certifications
+- Ways to get in touch and social profiles
 
-This website presents:
-- Professional experience
-- Technical skills and tools
-- Education and certifications
-- Contact and social links
+The design emphasizes speed, mobile compatibility, and straightforward updates.
 
-It is designed to be lightweight, responsive, and easily maintainable.
+## Tech Stack
+### Core Technologies
+- HTML5 (structured markup and SEO optimization)
+- CSS3 (responsive design, visual effects, layouts)
+- JavaScript (interactive features, dynamic navigation)
 
-## Technologies Used
+### Professional Expertise Displayed
+- Java development, Spring Boot framework, RESTful services
+- React library, modern JavaScript
+- Amazon Web Services, Google Cloud Platform
+- Relational and document databases
 
-### Frontend
-- HTML5 (semantic structure and metadata)
-- CSS3 (layout, responsiveness, animations)
-- JavaScript (navigation, UI interactions)
-
-### Highlighted Skills
-- Java, Spring Boot, REST APIs
-- React, JavaScript
-- AWS, Google Cloud
-- SQL and NoSQL databases
-
-## Project Structure
-
+## File Organization
+```
 ├── index.html 
-
 ├── style.css
-
 ├── script.js
-
 ├── public/
-
   │   └── images/
+```
 
+## Hosting
+Deployed and maintained through GitHub Pages infrastructure.
 
-## Deployment
+## Usage Rights
+Created for professional portfolio and career development purposes.
 
-The website is deployed using GitHub Pages.
+## 🔗 Get In Touch
+- [Website - Deividas Strole](https://deividasstrole.com)  
+- [Connect on LinkedIn](https://linkedin.com/in/deividas-strole)  
+- [Watch on YouTube](https://youtube.com/@deividas-strole)  
+- [Read on Dev.to](https://dev.to/deividas-strole)  
+- [Articles on Medium](https://medium.com/@deividas-strole)  
+- [Follow on X](https://x.com/deividasstrole)  
 
-## License
-
-This project is intended for personal and professional portfolio use.
-
-## 📫 Connect
-
-- [Deividas Strole](https://deividasstrole.com)  
-- [LinkedIn](https://linkedin.com/in/deividas-strole)  
-- [YouTube](https://youtube.com/@deividas-strole)  
-- [Dev.to](https://dev.to/deividas-strole)  
-- [Medium](https://medium.com/@deividas-strole)  
-- [X](https://x.com/deividasstrole)  
-
-⭐ If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**!
+⭐ Found this helpful? Star this repository to show your appreciation for **Deividas Strole's** work!
 
 © Deividas Strole. All rights reserved.
