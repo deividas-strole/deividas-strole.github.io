@@ -1,3 +1,6 @@
+// Current year
+document.getElementById('year').textContent = new Date().getFullYear();
+
 // Smooth scrolling
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
