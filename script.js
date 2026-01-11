@@ -1,6 +1,3 @@
-// Current year
-document.getElementById('year').textContent = new Date().getFullYear();
-
 // Smooth scrolling
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
@@ -30,12 +27,10 @@ function updateNavbarOnScroll() {
     } else {
         navbar.classList.remove('scrolled');
     }
-
     // Update active nav link using viewport midpoint (more robust than fixed 100px)
     const sections = ['home', 'about', 'experience', 'education', 'contact'];
     const navLinks = document.querySelectorAll('.nav-link');
     const mid = window.innerHeight / 2;
-
     sections.forEach((sectionId, index) => {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -58,17 +53,14 @@ function equalizeCtaButtonWidths() {
     if (!container) return;
     const buttons = Array.from(container.querySelectorAll('.btn'));
     if (buttons.length < 2) return;
-
     // Reset any inline widths so measurement is accurate
     buttons.forEach(b => b.style.width = '');
-
     // Find maximum width
     let max = 0;
     buttons.forEach(b => {
         const w = Math.ceil(b.getBoundingClientRect().width);
         if (w > max) max = w;
     });
-
     // Apply the maximum width to all CTA buttons
     buttons.forEach(b => b.style.width = max + 'px');
 }
@@ -83,6 +75,12 @@ function debounce(fn, wait = 100) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Set current year for copyright
+    const yearElement = document.getElementById('year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+    
     equalizeCtaButtonWidths();
     // Initial active link check
     updateNavbarOnScroll();
@@ -95,4 +93,3 @@ window.addEventListener('resize', debounce(function() {
 window.addEventListener('resize', debounce(function() {
     updateNavbarOnScroll();
 }, 120));
-
